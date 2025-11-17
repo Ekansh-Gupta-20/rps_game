@@ -1,0 +1,15 @@
+/* Make the entire page capable of centering the App */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #222;   /* dark background to match your design */
+  color: #fff;
+  box-sizing: border-box;
+}

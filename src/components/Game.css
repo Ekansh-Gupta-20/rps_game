@@ -1,0 +1,61 @@
+/* src/components/Game.css */
+.game {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* make sure buttons are centered */
+}
+
+.buttons button {
+  font-size: 40px;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: none;
+  background: #fff;      /* WHITE background */
+  color: #000;           /* black icons */
+  transition: 0.15s;
+}
+
+.buttons button:hover {
+  transform: scale(1.06);
+  background: #e9e9e9;   /* light grey hover */
+}
+
+
+.values, .scores {
+  font-size: 20px;
+}
+
+.result {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.reset {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #ff4444;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.reset:hover {
+  background: #ff2222;
+  transform: scale(1.05);
+}
+

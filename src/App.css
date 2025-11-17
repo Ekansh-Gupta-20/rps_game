@@ -1,0 +1,15 @@
+/* Make the whole page centered */
+#root, .App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222; /* same dark background */
+  color: white;
+}
+
+/* Remove default margins */
+body {
+  margin: 0;
+  padding: 0;
+}
